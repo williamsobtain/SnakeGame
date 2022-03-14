@@ -5,7 +5,7 @@
 int main(){
     while(true){
         printf("_");
-        Sleep(80);
+        Sleep(100);
     }
 }
 
