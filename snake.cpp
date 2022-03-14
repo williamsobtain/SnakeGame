@@ -2,12 +2,28 @@
 #include <windows.h>
 
 
-int main(){
-    while(true){
-        printf("_");
-        Sleep(100);
+void game(){
+    for(int i=0; i<100; i++){
+        printf("%c",205);
     }
-    printf("by my self");
+    for(int j=0; j<20; j++){
+        printf("\n");
+        for(int i=0; i<100; i++){
+            if(i==0 || i==98){
+                printf("%c",178);
+            }
+            printf(" ");
+        }
+    }
+    printf("\n");
+    for(int i=0; i<100; i++){
+        printf("%c",205);
+    }
+}
+
+int main(){
+    game();
+    return 0;
 }
 
 
