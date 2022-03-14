@@ -7,6 +7,7 @@ int main(){
         printf("_");
         Sleep(100);
     }
+    printf("by my self");
 }
 
 
